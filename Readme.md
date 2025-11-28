@@ -14,16 +14,19 @@ The project includes automatic builds, image pushes, and server redeployment whe
 
 ## 📁 Project Structure
 
+```
 crud-dd-task-mean-app/
-├── backend/ # Node.js + Express API (REST)
-│ └── Dockerfile
-├── frontend/ # Angular 15 app served with Nginx
-│ └── Dockerfile
-├── nginx/ # Reverse proxy configuration
-│ └── default.conf
-├── docker-compose.yml # Production multi-container setup
-└── .github/workflows/ # CI/CD pipeline
-└── deploy.yml
+├── backend/              # Node.js + Express API (REST)
+│   └── Dockerfile
+├── frontend/             # Angular 15 app served with Nginx
+│   └── Dockerfile
+├── nginx/                # Reverse proxy configuration
+│   └── default.conf
+├── docker-compose.yml    # Production multi-container setup
+└── .github/workflows/    # CI/CD pipeline
+    └── deploy.yml
+```
+
 
 
 ---
