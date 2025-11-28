@@ -120,12 +120,18 @@ SSH_HOST	13.60.34.15
 SSH_USER	ubuntu
 SSH_KEY	  .pem key
 
-### 📸 Screenshots
+# 📸 Screenshots
+### Github actions
 ![WhatsApp Image 2025-11-28 at 16 20 19_7a8f5119](https://github.com/user-attachments/assets/4ad3e4fa-d575-45a3-a0d7-f58cbfe8fca7)
+### Docker Hub images and repositories
 <img width="1169" height="791" alt="image" src="https://github.com/user-attachments/assets/c4ed389c-ecbe-4377-9418-3d41696cd08e" />
+### Running EC2 instance
 <img width="1090" height="701" alt="image" src="https://github.com/user-attachments/assets/184670d4-a0bf-4da9-8ed6-e3c68eebf2bd" />
+### Deployment inside VM
 <img width="1909" height="829" alt="image" src="https://github.com/user-attachments/assets/7ddd9211-ea32-4e8b-a6d8-19f18d6105e0" />
+### Application running on public IP
 <img width="1859" height="799" alt="image" src="https://github.com/user-attachments/assets/73a0bc09-9203-42ca-b144-05ea1d03085d" />
+### Github Secrets
 <img width="1919" height="774" alt="image" src="https://github.com/user-attachments/assets/0f284681-bb13-48bc-ab68-b80d1bc44fc2" />
 
 
