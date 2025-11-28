@@ -65,7 +65,7 @@ Official `mongo:6` Docker image with persistent volume:
 ### 2️⃣ SSH into server
 ssh -i "your-key.pem" ubuntu@<public-ip
 
-#Install Docker & Compose
+# Install Docker & Compose
 sudo apt update -y
 sudo apt install -y ca-certificates curl gnupg git
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
@@ -77,20 +77,20 @@ sudo apt update -y
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 
-#Clone project
+# Clone project
 sudo mkdir -p /opt/mean-app
 sudo chown $USER:$USER /opt/mean-app
 cd /opt/mean-app
 git clone https://github.com/<your-username>/crud-dd-task-mean-app.git .
 
-#Deploy using Docker Compose
+# Deploy using Docker Compose
 docker compose pull
 docker compose up -d
 
-#Access Application
+# Access Application
 http://13.60.34.15/
 
-###🔄 CI/CD Pipeline (GitHub Actions)
+### 🔄 CI/CD Pipeline (GitHub Actions)
 The entire project is automated using GitHub Actions.
 
 Pipeline steps:
@@ -117,7 +117,7 @@ SSH_HOST	13.60.34.15
 SSH_USER	ubuntu
 SSH_KEY	  .pem key
 
-###📸 Screenshots
+### 📸 Screenshots
 ![WhatsApp Image 2025-11-28 at 16 20 19_7a8f5119](https://github.com/user-attachments/assets/4ad3e4fa-d575-45a3-a0d7-f58cbfe8fca7)
 <img width="1169" height="791" alt="image" src="https://github.com/user-attachments/assets/c4ed389c-ecbe-4377-9418-3d41696cd08e" />
 <img width="1090" height="701" alt="image" src="https://github.com/user-attachments/assets/184670d4-a0bf-4da9-8ed6-e3c68eebf2bd" />
